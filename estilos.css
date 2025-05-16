@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f0fc;
+  color: #4a235a;
+}
+
+.bg-header-img {
+  background-image: url('https://gaceta.cch.unam.mx/sites/default/files/styles/imagen_articulos_1920x1080/public/2022-06/220310-aca1-des-f1-nueva-agenda-feminismos.jpg?h=7de7463f&itok=aGuRV3bJ'); /* o usa la URL remota */
+  background-size: cover;
+  background-position: center;
+  padding: 8rem 1rem; /* Aumenta la altura */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-header {
+  background-color: transparent; /* elimina fondo morado para dejar ver más imagen */
+}
+
+.bg-header h1,
+.bg-header p {
+  color: #ffffff;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6); /* más contraste con sombra */
+}
+
+.carousel-item img {
+  max-height: 750px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.bg-footer {
+  background-color: #6a1b9a;
+}
+
+.text-purple {
+  color: #8e24aa;
+}
+
+.noticia, .opinion {
+  background-color: #f3e5f5;
+  border-left: 4px solid #ba68c8;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.noticia:hover, .opinion:hover {
+  transform: translateY(-5px);
+  background-color: #e1bee7;
+}
